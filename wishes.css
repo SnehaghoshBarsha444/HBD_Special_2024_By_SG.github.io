@@ -1,0 +1,173 @@
+/* wishes.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #239ac2;
+  }
+  
+  .birthdayCard {
+    position: relative;
+    width: 550px; /* Increased width */
+    height: 730px; /* Increased height */
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: 1s;
+  }
+  
+  .birthdayCard:hover {
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+      0 10px 100px rgba(0, 0, 0, 0.5);
+  }
+  
+  .birthdayCard:hover .cardFront {
+    transform: rotateY(-160deg);
+  }
+  
+  .birthdayCard:hover .happy {
+    visibility: hidden;
+  }
+  
+  .cardFront {
+    position: relative;
+    background-color: #fff;
+    width: 550px; /* Match birthdayCard size */
+    height: 730px; /* Match birthdayCard size */
+    overflow: hidden;
+    transform-origin: left;
+    box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+      30px 0 50px rgba(0, 0, 0, 0.4);
+    transition: 0.6s;
+  }
+  
+  .happy {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    margin: 30px;
+    background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
+    transition: 0.1s;
+  }
+  
+  .balloons {
+    position: absolute;
+  }
+  
+  /* Scale up the balloons */
+  .balloon-1,
+  .balloon-2,
+  .balloon-3,
+  .balloon-4 {
+    position: absolute;
+    width: 150px; /* Increased size */
+    height: 170px; /* Increased size */
+    border-radius: 50%;
+  }
+  
+  .balloon-1 {
+    background-color: rgba(255, 40, 90, 0.7);
+    left: -30px;
+    top: 80px;
+  }
+  
+  .balloon-2 {
+    background-color: rgba(9, 215, 160, 0.7);
+    left: 100px;
+    top: 40px;
+  }
+  
+  .balloon-3 {
+    background-color: rgba(255, 186, 26, 0.7);
+    left: 250px;
+    top: 80px;
+  }
+  
+  .balloon-4 {
+    background-color: rgba(12, 122, 159, 0.7);
+    left: 400px;
+    top: 80px;
+  }
+  
+  /* Adjust balloon strings */
+  .balloon-1::before,
+  .balloon-2::before,
+  .balloon-3::before,
+  .balloon-4::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 300px; /* Lengthened string */
+    background-color: #ffc848;
+    top: 170px;
+    left: 75px;
+  }
+  
+  .balloon-1::after,
+  .balloon-2::after,
+  .balloon-3::after,
+  .balloon-4::after {
+    content: "";
+    position: absolute;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    top: 169px;
+    left: 67px;
+  }
+  
+  .balloon-1::after {
+    border-bottom: 15px solid #ff3e6b;
+  }
+  
+  .balloon-2::after {
+    border-bottom: 15px solid #04b183;
+  }
+  
+  .balloon-3::after {
+    border-bottom: 15px solid #ffc94c;
+  }
+  
+  .balloon-4::after {
+    border-bottom: 15px solid #13a9bd;
+  }
+  
+  .cardInside {
+    position: absolute;
+    background-color: #fff;
+    width: 550px;
+    height: 730px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-family: "Brush Script MT", cursive;
+    margin: 40px;
+    color: #333;
+  }
+  
+  .name {
+    position: bottom;
+    left: 250px;
+    top: 350px;
+    color: #333;
+  }
+  
+  .back {
+    font-family: Tahoma, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 30px;
+    outline-color: #333;
+    outline-style: dotted;
+  }
+  
+  
+  .btn{ align-items: center; background:#45aae9; color:#1d002c; text-decoration: none; border-radius: 25px; padding: 0.5rem 1rem; transition: all .3s ease; border: 2px solid #12f7ff; font-weight: 200;
+
+  }
+  
+  .btn:hover{ box-shadow: 0 0 1rem #45aae9; background: #1d002c; color:#45aae9 ; }

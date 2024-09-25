@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; /* font-family: 'Poppins', sans-serif;*/ list-style: none; scroll-behavior: smooth ;
+}
+
+body{ background-size: cover; background-repeat: no-repeat; overflow-x: hidden;
+
+}
+.btn{ align-items: center; background:#c7d689; color:#232021; text-decoration: none; border-radius: 25px; padding: 0.5rem 1rem; transition: all .3s ease; border: 2px solid #12f7ff; font-weight: 200;
+
+}
+
+.btn:hover{ box-shadow: 0 0 1rem #e76f51; background: #c3a3d3; color:#000 ; }
