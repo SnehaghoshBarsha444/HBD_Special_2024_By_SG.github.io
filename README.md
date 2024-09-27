@@ -1,0 +1,1 @@
+Welcome to my *Birthday Special Website!* I'm SG[Sneha Ghosh], the creator of this website. I built this website to celebrate a special birthday and share some joy with closed ones. I hope you enjoy the wishes, gifts, and other surprises I have in store for you.
