@@ -12,7 +12,7 @@ if (username === 'Ishani_Mitra' && dateofbirth === '26.09.2005') {
     window.location.href = 'home_index.html';
   }else if (username === 'Soumyadeep_Lodh' && dateofbirth === '19.10.1999') {
     window.location.href = 'home_index1.html';
-  }else if (username === 'Chakresh_Kumar' && dateofbirth === '08.10.2005') {
+  }else if (username === 'Lokku_Chakresh_Kumar' && dateofbirth === '08.10.2005') {
     window.location.href = 'home_index2.html';
   } else {
     alert('Invalid username or date of birth');
