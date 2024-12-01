@@ -18,6 +18,8 @@ if (username === 'Ishani_Mitra' && dateofbirth === '26.09.2005') {
     window.location.href = 'home_index3.html';
   }else if (username === 'Amit_Nigam_Sir' || dateofbirth === '') {
     window.location.href = 'home_index4.html';
+  }else if (username === 'Dishari_Das' && dateofbirth === '01.12.2006') {
+    window.location.href = 'home_index5.html';
   }else {
     alert('Invalid username or date of birth');
   }
