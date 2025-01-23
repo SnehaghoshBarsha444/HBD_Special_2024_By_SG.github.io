@@ -20,6 +20,10 @@ if (username === 'Ishani_Mitra' && dateofbirth === '26.09.2005') {
     window.location.href = 'home_index4.html';
   }else if (username === 'Dishari_Das' && dateofbirth === '01.12.2006') {
     window.location.href = 'home_index5.html';
+  }else if (username === 'Biju' && dateofbirth === '06.01.2006') {
+    window.location.href = '2025.html';
+  }else if (username === 'Sanchita' && dateofbirth === '06.01.2006') {
+    window.location.href = '2025.html';
   }else {
     alert('Invalid username or date of birth');
   }
